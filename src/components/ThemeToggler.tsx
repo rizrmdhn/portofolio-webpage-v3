@@ -20,10 +20,25 @@ export default function ThemeToggler() {
         <MenubarTrigger className="flex flex-row items-center gap-2 text-sm lg:text-lg">
           {currentTheme === "dark" ? <IoMdMoon /> : <IoMdSunny />}
         </MenubarTrigger>
-        <MenubarContent>
-          <MenubarItem onClick={() => setTheme("light")}>Light</MenubarItem>
-          <MenubarItem onClick={() => setTheme("dark")}>Dark</MenubarItem>
-          <MenubarItem onClick={() => setTheme("system")}>System</MenubarItem>
+        <MenubarContent className="bg-primary">
+          <MenubarItem
+            onClick={() => setTheme("light")}
+            className="text-primary-foreground"
+          >
+            Light
+          </MenubarItem>
+          <MenubarItem
+            onClick={() => setTheme("dark")}
+            className="text-primary-foreground"
+          >
+            Dark
+          </MenubarItem>
+          <MenubarItem
+            onClick={() => setTheme("system")}
+            className="text-primary-foreground"
+          >
+            System
+          </MenubarItem>
         </MenubarContent>
       </MenubarMenu>
     </Menubar>
