@@ -9,7 +9,7 @@ export default function Project() {
     >
       {project.map((item, index) => (
         <ProjectCard
-          className="bg-transparent"
+          className="lg:w-400px bg-transparent"
           key={index}
           name={item.name}
           description={item.description}

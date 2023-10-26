@@ -72,6 +72,7 @@ module.exports = {
       },
       width: {
         "200px": "200px",
+        "400px": "400px",
       },
       height: {
         "header-height": "60px",
