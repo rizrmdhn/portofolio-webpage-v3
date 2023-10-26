@@ -1,0 +1,56 @@
+{
+  "project": [
+    {
+      "name": "Forums App",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl.",
+      "url": "https://forums-app.netlify.app",
+      "githubUrl": "https://github.com/rizrmdhn/forum-app-nextjs",
+      "tech": ["Next.js", "Tailwind CSS"],
+      "image": [
+        {
+          "url": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Forum Apps Android",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl.",
+      "url": "",
+      "githubUrl": "https://github.com/rizrmdhn/forum-app-android",
+      "tech": ["React Native"],
+      "image": [
+        {
+          "url": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Learning Aja",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl.",
+      "url": "",
+      "githubUrl": "https://github.com/rizrmdhn/learning-aja",
+      "tech": ["React JS", "Tailwind CSS"],
+      "image": [
+        {
+          "url": "",
+          "alt": ""
+        }
+      ]
+    },
+    {
+      "name": "Learning Aja Api",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl.",
+      "url": "",
+      "githubUrl": "https://github.com/rizrmdhn/learning-aja-api",
+      "tech": ["Hapi JS", "PostgreSQL"],
+      "image": [
+        {
+          "url": "",
+          "alt": ""
+        }
+      ]
+    }
+  ]
+}
