@@ -50,6 +50,30 @@ export default function ProjectCard({
           ))}
         </div>
       </CardContent>
+      <CardFooter className="lg: flex flex-col items-center justify-center gap-2 lg:flex-row lg:gap-5">
+        {url && (
+          <div className="flex flex-row justify-center">
+            <a
+              href={url}
+              target="_blank"
+              className="text-sm duration-200 hover:scale-125 lg:text-lg"
+            >
+              <span>Visit</span>
+            </a>
+          </div>
+        )}
+        {githubUrl && (
+          <div className="flex flex-row justify-center">
+            <a
+              href={githubUrl}
+              target="_blank"
+              className="text-sm duration-200 hover:scale-125 lg:text-lg"
+            >
+              <span>Source Code</span>
+            </a>
+          </div>
+        )}
+      </CardFooter>
     </Card>
   );
 }

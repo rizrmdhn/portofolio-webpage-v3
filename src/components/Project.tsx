@@ -5,7 +5,7 @@ export default function Project() {
   return (
     <div
       id="project"
-      className="mb-5 mt-5 flex w-full flex-col items-center justify-center border-b-2 border-primary"
+      className="mt-5 flex w-full flex-col items-center justify-center border-b-2 border-primary"
     >
       {project.map((item, index) => (
         <ProjectCard

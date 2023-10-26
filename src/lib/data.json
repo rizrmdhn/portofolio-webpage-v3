@@ -44,7 +44,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl. Sed euismod, nisl quis tincidunt aliquam, nunc nisl ultrices nunc, nec aliquam nisl nunc quis nisl.",
       "url": "",
       "githubUrl": "https://github.com/rizrmdhn/learning-aja-api",
-      "tech": ["Hapi JS", "PostgreSQL"],
+      "tech": ["Hapi JS", "PostgreSQL", "Jest"],
       "image": [
         {
           "url": "",

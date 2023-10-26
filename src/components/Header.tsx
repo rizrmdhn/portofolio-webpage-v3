@@ -9,10 +9,16 @@ export default function Header() {
       <h1 className="text-sm font-bold lg:text-2xl">Portofolio</h1>
       <Menubar className="flex flex-row justify-between border-0 bg-transparent">
         <MenubarMenu>
-          <Link href="#project" className="mr-1 text-sm lg:text-xl">
+          <Link
+            href="#project"
+            className="mr-2 text-sm duration-200 hover:border-b-2 hover:border-primary lg:text-xl"
+          >
             Project
           </Link>
-          <Link href="#link" className="ms-1 text-sm lg:text-xl">
+          <Link
+            href="#link"
+            className="ms-2 text-sm duration-200  hover:border-b-2 hover:border-primary lg:text-xl"
+          >
             Contact
           </Link>
         </MenubarMenu>
