@@ -36,7 +36,9 @@ export default function ProjectCard({
     <Card className={cn("mb-5", className)}>
       <CardHeader>
         <CardTitle>{name}</CardTitle>
-        <CardDescription>{description}</CardDescription>
+        <CardDescription className="line-clamp-3">
+          {description}
+        </CardDescription>
       </CardHeader>
       <CardContent>
         <div className="flex flex-row flex-wrap justify-center">

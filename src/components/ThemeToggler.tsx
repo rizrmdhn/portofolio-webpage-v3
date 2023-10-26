@@ -18,7 +18,17 @@ export default function ThemeToggler() {
     <Menubar className="border-0 bg-transparent">
       <MenubarMenu>
         <MenubarTrigger className="flex flex-row items-center gap-2 text-sm lg:text-lg">
-          {currentTheme === "dark" ? <IoMdMoon /> : <IoMdSunny />}
+          {currentTheme === "dark" ? (
+            <>
+              <IoMdMoon />
+              Dark
+            </>
+          ) : (
+            <>
+              <IoMdSunny />
+              Light
+            </>
+          )}
         </MenubarTrigger>
         <MenubarContent className="bg-primary">
           <MenubarItem
