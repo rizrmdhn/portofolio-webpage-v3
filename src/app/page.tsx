@@ -1,5 +1,4 @@
 import About from "@/components/About";
-import Certificate from "@/components/Certificate";
 import Contact from "@/components/Contact";
 import Header from "@/components/Header";
 import Project from "@/components/Project";
@@ -11,7 +10,6 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center">
         <About />
         <Project />
-        <Certificate />
         <Contact />
       </section>
     </main>
